@@ -3,6 +3,10 @@
   "affected": {
     "defaultBase": "master"
   },
+  "release": {
+    "releaseTagPattern": "{projectName}/{version}",
+    "projectsRelationship": "independent"
+  },
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "production": [
